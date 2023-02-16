@@ -9,20 +9,23 @@ public class Main {
         System.out.println("Enter number to be examined: ");
         int number = in.nextInt();
 
+        System.out.println("Number of digits: " + Harshad.numberOfDigits(number));
+        System.out.println("Sum of digits: " + Harshad.sumOfDigits(number));
+
         //Fibonacci
-        boolean isFibonacci;
-        System.out.println(number + " is ");
+        boolean isFibonacci = fibonacci.isFibonacci(number);
+        System.out.print(number + " is ");
         
-        if(!isFibonacci) System.out.println("not");
+        if(!isFibonacci) System.out.print("not");
 
         System.out.println(" a Fibonacci number.");
 
         //Harshad
 
         boolean isHarshad = Harshad.harsahdChecker(number);
-        System.out.println(number + " is ");
+        System.out.print(number + " is ");
         
-        if(!isHarshad) System.out.println("not");
+        if(!isHarshad) System.out.print("not");
 
         System.out.println(" a Harshad number.");
 
@@ -30,18 +33,18 @@ public class Main {
         //Prime Number
 
         boolean isPrime;
-        System.out.println(number + " is ");
+        System.out.print(number + " is ");
         
-        if(!isPrime) System.out.println("not");
+        if(!isPrime) System.out.print("not");
 
         System.out.println(" a Prime number.");
 
         //Narcissistic number
 
-        boolean isNarcissistic;
-        System.out.println(number + " is ");
+        boolean isNarcissistic = narcissistic.isNarcissistic(number);
+        System.out.print(number + " is ");
         
-        if(!isNarcissistic) System.out.println("not");
+        if(!isNarcissistic) System.out.print("not");
 
         System.out.println(" a Narcissistic number.");
 
