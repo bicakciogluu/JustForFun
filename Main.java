@@ -13,6 +13,7 @@ public class Main {
         System.out.println("Sum of digits: " + Harshad.sumOfDigits(number));
 
         //Fibonacci
+        
         boolean isFibonacci = fibonacci.isFibonacci(number);
         System.out.print(number + " is ");
         
