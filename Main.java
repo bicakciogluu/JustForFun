@@ -19,7 +19,7 @@ public class Main {
 
         //Harshad
 
-        boolean isHarshad;
+        boolean isHarshad = Harshad.harsahdChecker(number);
         System.out.println(number + " is ");
         
         if(!isHarshad) System.out.println("not");
