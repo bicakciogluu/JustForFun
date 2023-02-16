@@ -1,24 +1,6 @@
 class furkan{
     public static void main(String[] args) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+     
+        System.out.println("Ömeri sikmek çok keyifli");
     }
-      public static int omerbaba(int number){
-            return number*2;
-        }
 }
