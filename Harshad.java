@@ -20,11 +20,12 @@ public class Harshad{
         }
         return false;
     }
-
-    public static void main(String[] args){
-        System.out.println(harsahdChecker(12));
-        System.out.println(harsahdChecker(14));
-        System.out.println(harsahdChecker(16));
-        System.out.println(harsahdChecker(24));
+    public static int numberOfDigits(int a){
+        int digit = 0; 
+        while(a > 0){
+            a /= 10;
+            digit++;
+        }
+        return digit;
     }
 }
