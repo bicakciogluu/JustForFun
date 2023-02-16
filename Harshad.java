@@ -20,6 +20,7 @@ public class Harshad{
         }
         return false;
     }
+    
     public static int numberOfDigits(int a){
         int digit = 0; 
         while(a > 0){
@@ -27,5 +28,20 @@ public class Harshad{
             digit++;
         }
         return digit;
+    }
+
+    public static int sumOfDigits(int a){
+        int result = 0;
+        while(a > 0){
+            result += a % 10;
+            a /= 10;
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(sumOfDigits(15));
+        System.out.println(sumOfDigits(157));
+        System.out.println(sumOfDigits(280));
     }
 }
