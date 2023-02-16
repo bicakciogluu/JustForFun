@@ -7,6 +7,7 @@ public class Main {
         
         Scanner in = new Scanner(System.in);
         System.out.println("");
+        int number=in.nextInt();
 
         //Fibonacci
 
@@ -15,7 +16,7 @@ public class Main {
 
 
         //Prime Number
-
+        System.out.println(Prime.isPrime(number));
 
 
         //Narcissistic number
