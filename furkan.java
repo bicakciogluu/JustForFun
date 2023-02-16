@@ -3,6 +3,7 @@ class furkan{
      
         System.out.println("Ömeri sikmek çok keyifli");
         System.out.println("Deneme");
+        System.out.println("Yarramı dene");
     }
 
 }
