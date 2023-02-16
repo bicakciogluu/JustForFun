@@ -32,7 +32,7 @@ public class Main {
 
         //Prime Number
 
-        boolean isPrime;
+        boolean isPrime = Prime.isPrime(number);
         System.out.print(number + " is ");
         
         if(!isPrime) System.out.print("not");
