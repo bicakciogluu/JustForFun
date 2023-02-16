@@ -28,9 +28,4 @@ public class narcissistic {
         }
 
     }
-
-    public static void main(String[] args) {
-        System.out.println(isNarcissistic(372));
-    }
-
 }

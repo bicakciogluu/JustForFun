@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
 <<<<<<< HEAD
@@ -13,12 +13,12 @@ public class Main {
         int number = in.nextInt();
 >>>>>>> main
 
-        System.out.println("Number of digits: " + Harshad.numberOfDigits(number));
-        System.out.println("Sum of digits: " + Harshad.sumOfDigits(number));
+                System.out.println("Number of digits: " + Harshad.numberOfDigits(number));
+                System.out.println("Sum of digits: " + Harshad.sumOfDigits(number));
 
-<<<<<<< HEAD
         // Fibonacci
 
+        // Harshad
         // Harshad
 =======
         //Fibonacci
@@ -53,9 +53,31 @@ public class Main {
 >>>>>>> main
 >>>>>>> main
 
-        // Prime Number
+        System.out.println(" a Fibonacci number.");
 
-<<<<<<< HEAD
+        //Harshad
+
+        boolean isHarshad = Harshad.harsahdChecker(number);
+        System.out.print(number + " is ");
+        
+        if(!isHarshad) System.out.print("not");
+
+        System.out.println(" a Harshad number.");
+
+
+        //Prime Number
+
+        boolean isPrime;
+        System.out.print(number + " is ");
+        
+        if(!isPrime) System.out.print("not");
+
+        System.out.println(" a Prime number.");
+>>>>>>> main
+
+                // Prime Number
+
+        // Narcissistic number
         // Narcissistic number
 =======
         boolean isNarcissistic = narcissistic.isNarcissistic(number);
@@ -65,6 +87,15 @@ public class Main {
 
         System.out.println(" a Narcissistic number.");
 >>>>>>> main
+                // Narcissistic number
+=======
+        boolean isNarcissistic = narcissistic.isNarcissistic(number);
+        System.out.print(number + " is ");
+        
+        if(!isNarcissistic) System.out.print("not");
 
-    }
+        System.out.println(" a Narcissistic number.");
+>>>>>>> main
+
+        }
 }
