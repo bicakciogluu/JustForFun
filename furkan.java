@@ -3,11 +3,8 @@ class furkan{
      
         System.out.println("Ömeri sikmek çok keyifli");
         System.out.println("Deneme");
-<<<<<<< HEAD
-        System.out.println("aynı anda yazıyoruz");
-=======
         System.out.println("Yarramı dene");
->>>>>>> main
+        System.out.println("DEneme2222222");
     }
 
 }
